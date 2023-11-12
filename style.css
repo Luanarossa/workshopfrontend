@@ -1,0 +1,30 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to bottom, #ff0000, #800000); /* Degradê vermelho */
+    color: #fff;
+    font-family: 'Arial', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.container {
+    text-align: center;
+}
+
+.image img {
+    align-items: center;
+    justify-content: center;
+    width:250px;
+    height: 250px;
+    border-radius: 30px;
+}
+
+.speech {
+    background: rgba(0, 0, 0, 0.5); /* Fundo preto semi-transparente */
+    padding: 20px;
+    margin: 10px;
+    border-radius: 10px;
+}
